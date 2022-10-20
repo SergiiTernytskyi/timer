@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Timer</title>
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <div class="timer">
+            <div class="circle">
+                <div class="dots day_dot"></div>
+                <svg width="200" height="200">
+                    <circle cx="100" cy="100" r="100"></circle>
+                    <circle cx="100" cy="100" r="100" id="dd"></circle>
+                </svg>
+
+                <div class="days clock"></div>
+            </div>
+
+            <div class="circle">
+                <div class="dots hour_dot"></div>
+                <svg width="200" height="200">
+                    <circle cx="100" cy="100" r="100"></circle>
+                    <circle cx="100" cy="100" r="100" id="hh"></circle>
+                </svg>
+
+                <div class="hours clock">00</div>
+            </div>
+
+            <div class="circle">
+                <div class="dots minute_dot"></div>
+                <svg width="200" height="200">
+                    <circle cx="100" cy="100" r="100"></circle>
+                    <circle cx="100" cy="100" r="100" id="mm"></circle>
+                </svg>
+
+                <div class="minutes clock">00</div>
+            </div>
+
+            <div class="circle">
+                <div class="dots second_dot"></div>
+                <svg width="200" height="200">
+                    <circle cx="100" cy="100" r="100"></circle>
+                    <circle cx="100" cy="100" r="100" id="ss"></circle>
+                </svg>
+
+                <div class="seconds clock">00</div>
+            </div>
+        </div>
+
+        <script type="module" src="./script.js"></script>
+    </body>
+</html>
